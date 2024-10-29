@@ -5,7 +5,7 @@ books = {
     4: {"title": "451 градус по Фарингейту", "autor": "Рэй Брэдбери", "year": "1953"},
     5: {"title": "Зов Ктулху", "autor": "Говард Лавкрафт", "year": "1928"},
 }
-for bookn, booki in books.items():
-    print(f"----------------------Книга{bookn}-----------------------")
-    print(f"Название: {booki['title']}, Автор: {booki['autor']},")
-    print(f"-------------------------{booki['year']}----------------------")
+for bookid, bookinf in books.items():
+    print(f"----------------------Книга{bookid}-----------------------")
+    print(f"Название: {bookinf['title']}, Автор: {bookinf['autor']},")
+    print(f"-------------------------{bookinf['year']}----------------------")
